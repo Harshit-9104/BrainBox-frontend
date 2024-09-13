@@ -48,13 +48,13 @@ const allCourses = [
     description: 'Design stunning user interfaces.'
   },
   {
-    id: 2,
+    id: 3,
     title: 'REACT JS',
     image: 'https://www.creativeitinstitute.com/images/course/course_1674371266.jpg',
     description: 'Learn the basics of REACT JS'
   },
   {
-    id: 2,
+    id: 4,
     title: 'AI & ML',
     image: 'https://th.bing.com/th/id/OIP.gRlePYCr_W-M81y68PdA1AHaEK?rs=1&pid=ImgDetMain',
     description: 'The altimate course for AI & ML'
