@@ -1,0 +1,175 @@
+.App {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #101426;
+  color: antiquewhite;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #101426;
+  padding: 10px 40px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 16px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.search-bar {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 20px;
+  width: 400px;
+  background-color: #101426;
+  color: white;
+  font-weight: bolder;
+  
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.notification-icon {
+  margin-right: 20px;
+}
+
+.login-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.welcome-section {
+  padding: 20px;
+  text-align: left;
+  background-color: red;
+  color: antiquewhite;
+  height: 80px;
+  background-image: linear-gradient(to right, red , rgb(206, 175, 175));
+}
+.welcome-section h1,h4{
+  margin-left: 50px;
+  margin-top: 8px;
+  margin: bottom 16px;
+}
+
+h2{
+  margin-left: 50px;
+}
+
+.courses-section,
+.live-classes-section,
+.all-courses-section {
+  padding: 20px;
+}
+
+.courses-section{
+  display: flex;
+  border: 1px solid #ddd; /* Optional: Border around the container */
+  border-radius: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  height: 170px;
+}
+
+.courses-section button{
+  height: 25px;
+  border-radius: 5px;
+}
+
+
+.courses-section .card-image{
+  width: 350px;
+  height: 180px;
+  border-radius: 10px;
+  
+}
+
+.card-container1{
+  display: flex;
+  align-items: center;
+  /* gap: 20px;
+  padding: 20px;  */
+  /* border: 1px solid #ddd; 
+  border-radius: 8px; */
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.card-text1{
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.card-container{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px; 
+  /* border: 1px solid #ddd;  */
+  /* border-radius: 8px; */
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  
+}
+
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  /* overflow: hidden; */
+  width: 250px;
+  height: 350px;
+  background-color: #212649;
+}
+
+/* .card-image1{
+  width: 95%;
+  height: 50%;
+  margin: 6px;
+  border-radius: 20px;
+} */
+
+
+.card-image {
+  width: 95%;
+  height: 50%;
+  margin: 6px;
+}
+
+.card-text{
+  margin-top: 5px;
+  padding: 5%;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #101426;
+}
